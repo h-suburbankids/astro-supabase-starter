@@ -1,7 +1,7 @@
 <script>
   // Initialize Supabase
-  const supabaseUrl = 'https://xyzcompany.supabase.co'; // Replace with your Supabase URL
-  const supabaseKey = 'your_supabase_anon_key'; // Replace with your Supabase anon key
+  const supabaseUrl = 'https://wjhelltvpemzogcleebw.supabase.co'; // Replace with your Supabase URL
+  const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndqaGVsbHR2cGVtem9nY2xlZWJ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE4MDQ1MDYsImV4cCI6MjA1NzM4MDUwNn0.QWMoFsaornGG_VqMUWDBob4MFDPuFBZ18T1GgqeVZbQ'; // Replace with your Supabase anon key
   const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
   // File upload functionality
